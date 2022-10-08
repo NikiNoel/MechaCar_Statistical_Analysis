@@ -9,7 +9,7 @@ A few weeks after starting his new role, Jeremy is approached by upper managemen
 
 For each statistical analysis, you’ll write a summary interpretation of the findings.
 
-## Deliverable 1: Linear Regression to Predict MPG
+## Linear Regression to Predict MPG
 - Methodology: Each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. 
 ![Mecha Car Linear Model Summary](./Images/Mecha_lm_summary.png)
 
@@ -21,7 +21,7 @@ For each statistical analysis, you’ll write a summary interpretation of the fi
 - Q3) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
     - The Multiple R-squared value is 0.71, while the p-value remained significant. Indicating that the model does a decant job of predicting mpg.
 
-## Deliverable 2: Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils
 ![Total Summary Suspeniosn Coil](./Images/total_summary_df.png)
 
 ![Lot Summary](./Images/lot_summary.png)
@@ -29,11 +29,13 @@ For each statistical analysis, you’ll write a summary interpretation of the fi
 - Q1) The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
     - By lots, lots 1 & 2 are within specifications, however lot 3 exceeds the specifications 
 
-## Deliverable 3: T-Test on Suspension Coils
+
+## T-Tests on Suspension Coils
+-  
 ![t.test all lots](./Images/t.test_all_lots.png)
 
 
 ![t.test by lot](./Images/t.test_by_lot.png)
 
 
-## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+## Study Design: MechaCar vs Competition
